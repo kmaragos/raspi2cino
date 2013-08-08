@@ -5,7 +5,6 @@ import time
 
 # This is the address we setup in the Arduino Program
 address = 0x04
-iodir_register = 0x00
 gpio_register = 0x09
 
 def writeNumber(value):
